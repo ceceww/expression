@@ -39,7 +39,7 @@
 class Expression {
 public:
 	Expression();
-	~Expression();
+	virtual ~Expression();
 
 	// Functions supported by all types of Expression:
 	
